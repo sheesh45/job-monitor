@@ -1,0 +1,21 @@
+{
+  "name": "sheesh/job-monitor",
+  "description": "Queue agnostic Laravel background job monitor",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Sheesh\\JobMonitor\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Sheesh\\JobMonitor\\JobMonitorServiceProvider"
+      ]
+    }
+  },
+  "require": {
+    "php": "^8.2"
+  }
+}
