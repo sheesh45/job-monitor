@@ -1,5 +1,7 @@
 <?php
 
+namespace JobMonitor\Controllers;
+
 class JobMonitorController extends Controller
 {
     public function index()

@@ -5,13 +5,13 @@
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "Sheesh\\JobMonitor\\": "src/"
+      "JobMonitor\\": "src/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Sheesh\\JobMonitor\\JobMonitorServiceProvider"
+        "JobMonitor\\JobMonitorServiceProvider"
       ]
     }
   },

@@ -1,5 +1,7 @@
 <?php
 
+namespace JobMonitor\Commands;
+
 class CleanOldJobsCommand extends Command
 {
     protected $signature = 'job-monitor:clean {days=7}';

@@ -1,6 +1,6 @@
 <?php
 
-namespace Sheesh\JobMonitor\Models;
+namespace JobMonitor\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

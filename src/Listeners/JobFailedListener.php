@@ -1,5 +1,7 @@
 <?php
 
+namespace JobMonitor\Listeners;
+
 use Illuminate\Queue\Events\JobFailed;
 
 class JobFailedListener
